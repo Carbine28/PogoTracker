@@ -8,10 +8,13 @@ namespace PogoTracker
     {
 
         private string yourOwnConnectionString = "Data Source[Replace with SQL Server name, includign the square brackets];Initial Catalog=PokemonTracker;Integrated Security=True;";
-        public PogoTrackerDb() : base()
+        public PogoTrackerDb(string yourOwnConnectionString) : base(yourOwnConnectionString)
         {
-            //PrintConnectionString();
+
         }
+
+
+
 
         public void AddPokemon(Pokemon pokemon)
         {
