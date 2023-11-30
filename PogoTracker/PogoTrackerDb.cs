@@ -6,15 +6,12 @@ namespace PogoTracker
 {
     public class PogoTrackerDb : SQLServerDb
     {
-
+        // Change the connection string to your own SQL Server
         private string yourOwnConnectionString = "Data Source[Replace with SQL Server name, includign the square brackets];Initial Catalog=PokemonTracker;Integrated Security=True;";
         public PogoTrackerDb(string yourOwnConnectionString) : base(yourOwnConnectionString)
         {
 
         }
-
-
-
 
         public void AddPokemon(Pokemon pokemon)
         {
