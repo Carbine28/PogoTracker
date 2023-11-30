@@ -1,5 +1,5 @@
 ﻿using System.Net.Http.Headers;
-using System.Text.Json; // 
+using System.Text.Json; 
 
 // Class to handle requests to the Pokemon Go API
 namespace PogoTracker

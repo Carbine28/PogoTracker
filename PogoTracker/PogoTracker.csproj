@@ -11,10 +11,4 @@
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="CarbeenoLibrary">
-      <HintPath>..\..\CustomLibraryDLLs\CarbeenoLibrary.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
